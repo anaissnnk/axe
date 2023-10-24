@@ -1,0 +1,31 @@
+/* variables */
+/* nav variables */
+$nav-bgcolor: pink;
+$nav-bghover: beige;
+$nav-linkcolor: black;
+$nav-padding: 2ch;
+
+/* navigation bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: $nav-padding;
+    background-color: $nav-bgcolor;
+    li {
+    display: inline;
+    }
+    li a {
+    padding: $nav-padding;
+    color: $nav-linkcolor
+    }
+    li a:hover {
+    background-color: $nav-bghover;
+    }
+  }
+
+  /* banner */
+  .banner {
+    max-width: 100%;
+    margin: auto;
+    padding: auto;
+  }
