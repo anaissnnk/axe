@@ -1,15 +1,28 @@
+/* color palette
+dark blue: #2D4356;
+lighter blue: #435B66;
+grey: #435B66;
+light grey: #EFEFEF;
+*/
+
 /* variables */
 /* nav variables */
-$nav-bgcolor: pink;
-$nav-bghover: beige;
-$nav-linkcolor: black;
+$nav-bgcolor: #2D4356;
+$nav-bghover: #435B66;
+$nav-linkcolor: #EFEFEF;
 $nav-padding: 2ch;
 /* footer variables*/
-$footer-bgcolor: yellow;
-/*article variables*/
-$article-bgcolor: lightgrey;
+$footer-bgcolor: #2D4356;
+$footer-txtcolor: #EFEFEF;
+/* article variable*/
+$article-bgcolor: #d8d8d8d4;
 
 
+body {
+    background-color: #f5f5f5;
+}
+
+/* Common elements for all pages*/
 /* navigation bar*/
 ul {
     list-style-type: none;
@@ -21,7 +34,7 @@ ul {
     }
     li a {
     padding: $nav-padding;
-    color: $nav-linkcolor;
+    color: $nav-linkcolor
     }
     li a:hover {
     background-color: $nav-bghover;
@@ -32,13 +45,14 @@ ul {
 .banner {
     max-width: 100%;
     margin: auto;
-    padding: 0;
+    padding: auto;
 }
 
-/* footer*/
+/* footer */
 footer {
     text-align: center;
     background-color: $footer-bgcolor;
+    color: $footer-txtcolor;
 }
 
 /* article */
