@@ -31,19 +31,4 @@ ul li a:hover {
 footer {
   text-align: center;
   background-color: yellow;
-}
-
-/* article */
-article {
-  background-color: lightgrey;
-  max-width: 80%;
-  margin: auto;
-  padding: auto;
-  /*
-  figure {
-      display: flex;
-      justify-content: center;
-      max-width: 50%;
-  }
-  */
-}/*# sourceMappingURL=travel-post.css.map */
+}/*# sourceMappingURL=nav-pages.css.map */
