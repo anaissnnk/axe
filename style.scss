@@ -12,7 +12,7 @@ $nav-bghover: #435B66;
 $nav-linkcolor: #EFEFEF;
 $nav-padding: 2ch;
 /* Index page variables*/
-$my-padding: 2ch;
+$my-padding: 1ch;
 /* aside variables*/
 $aside-bgcolor: #d8d8d8d4;
 $aside-bordercolor: #435B66 1px solid;
@@ -73,6 +73,13 @@ footer {
         margin: $my-padding;
         background-color: $aside-bgcolor;
     }
+    aside h3 {
+        display: flex;
+        justify-content: center;
+    }
+    aside p {
+        text-align: justify;
+    }
     main {
         display: flex;
         flex-direction: column;
@@ -88,4 +95,9 @@ footer {
         margin: auto;
         padding: auto;
     }
+    main p {
+        text-align: center;
+    }
 }
+
+
