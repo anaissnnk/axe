@@ -4,6 +4,14 @@ $nav-bgcolor: pink;
 $nav-bghover: beige;
 $nav-linkcolor: black;
 $nav-padding: 2ch;
+/* Index page variables*/
+$my-padding: 2ch;
+/* aside variables*/
+$aside-bgcolor: salmon;
+
+/*main variables*/
+$main-bgcolor: orange;
+
 
 /* navigation bar*/
 ul {
@@ -40,6 +48,22 @@ ul {
         display: flex;
         flex-direction: column;
         max-width: 20%;
+        padding: $my-padding;
+        margin: $my-padding;
+        background-color: $aside-bgcolor;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        max-width: 80%;
+        padding: $my-padding;
+        margin: $my-padding;
+        background-color: $main-bgcolor;
+    }
+    main img {
+        max-width: 100%;
+        margin: auto;
+        padding: auto;
     }
 }
 

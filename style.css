@@ -1,5 +1,8 @@
 /* variables */
 /* nav variables */
+/* Index page variables*/
+/* aside variables*/
+/*main variables*/
 /* navigation bar*/
 ul {
   list-style-type: none;
@@ -35,10 +38,21 @@ ul li a:hover {
 .container aside {
   display: flex;
   flex-direction: column;
-  max-width: 30%;
+  max-width: 20%;
+  padding: 2ch;
+  margin: 2ch;
+  background-color: salmon;
 }
-.container .about-user img {
+.container main {
   display: flex;
-  justify-content: center;
-  max-width: 30%;
+  flex-direction: column;
+  max-width: 80%;
+  padding: 2ch;
+  margin: 2ch;
+  background-color: orange;
+}
+.container main img {
+  max-width: 100%;
+  margin: auto;
+  padding: auto;
 }/*# sourceMappingURL=style.css.map */
