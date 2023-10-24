@@ -1,7 +1,7 @@
 /* variables */
 /* nav variables */
 /* footer variables*/
-/*article variables*/
+/*card variables*/
 /* navigation bar*/
 ul {
   list-style-type: none;
@@ -31,4 +31,36 @@ ul li a:hover {
 footer {
   text-align: center;
   background-color: yellow;
+}
+
+/* cards */
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 2ch;
+  padding: 2ch;
+}
+.card-container .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 30%;
+}
+.card-container .card .card-content {
+  background-color: brown;
+  padding: 1ch;
+}
+.card-container .card .card-content h3 {
+  text-align: center;
+}
+.card-container .card .card-content p {
+  text-align: justify;
+}
+.card-container .card .card-content a:link {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 2ch;
+  border-width: 30%;
 }/*# sourceMappingURL=nav-pages.css.map */

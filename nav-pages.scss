@@ -6,8 +6,9 @@ $nav-linkcolor: black;
 $nav-padding: 2ch;
 /* footer variables*/
 $footer-bgcolor: yellow;
-/*article variables*/
-$article-bgcolor: lightgrey;
+/*card variables*/
+$card-bgcolor: brown;
+$readmore-bgcolor: white;
 
 
 /* navigation bar*/
@@ -41,3 +42,33 @@ footer {
     background-color: $footer-bgcolor;
 }
 
+/* cards */
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2ch;
+    padding: 2ch;
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 30%;
+.card-content {
+        background-color: $card-bgcolor;
+        padding: 1ch;
+    }
+.card-content h3 {
+    text-align: center;
+    }
+.card-content p {
+    text-align: justify;
+    }
+.card-content a:link {
+    display: flex;
+    justify-content: center;
+    background-color: $readmore-bgcolor;
+    border-radius: 2ch;
+    }
+}
+}
