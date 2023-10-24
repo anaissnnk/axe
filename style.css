@@ -3,6 +3,7 @@
 /* Index page variables*/
 /* aside variables*/
 /*main variables*/
+/* footer variables*/
 /* navigation bar*/
 ul {
   list-style-type: none;
@@ -55,4 +56,9 @@ ul li a:hover {
   max-width: 100%;
   margin: auto;
   padding: auto;
+}
+
+footer {
+  text-align: center;
+  background-color: yellow;
 }/*# sourceMappingURL=style.css.map */

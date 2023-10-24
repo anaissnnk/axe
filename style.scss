@@ -8,9 +8,10 @@ $nav-padding: 2ch;
 $my-padding: 2ch;
 /* aside variables*/
 $aside-bgcolor: salmon;
-
 /*main variables*/
 $main-bgcolor: orange;
+/* footer variables*/
+$footer-bgcolor: yellow;
 
 
 /* navigation bar*/
@@ -67,3 +68,7 @@ ul {
     }
 }
 
+footer {
+    text-align: center;
+    background-color: $footer-bgcolor;
+}
