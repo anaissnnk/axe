@@ -23,4 +23,22 @@ ul li a:hover {
   max-width: 100%;
   margin: auto;
   padding: auto;
+}
+
+/* INDEX - main content*/
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding: auto;
+}
+.container aside {
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+}
+.container .about-user img {
+  display: flex;
+  justify-content: center;
+  max-width: 30%;
 }/*# sourceMappingURL=style.css.map */

@@ -23,9 +23,23 @@ ul {
     }
   }
 
-  /* banner */
-  .banner {
+/* banner */
+.banner {
     max-width: 100%;
     margin: auto;
     padding: auto;
-  }
+}
+
+/* INDEX - main content*/
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: auto;
+    aside {
+        display: flex;
+        flex-direction: column;
+        max-width: 20%;
+    }
+}
+
