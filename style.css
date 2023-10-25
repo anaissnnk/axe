@@ -97,6 +97,8 @@ footer {
 }
 .container main p {
   text-align: center;
+  margin: 1ch;
+  padding: 1ch;
 }
 .container main a:link {
   display: flex;

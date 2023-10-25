@@ -118,6 +118,8 @@ footer {
     }
     main p {
         text-align: center;
+        margin: $main-margin;
+        padding: $main-padding;
     }
     main a:link {
         display: flex;
