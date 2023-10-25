@@ -67,19 +67,10 @@ article {
 main {
   display: flex;
   flex-direction: column;
-  max-width: 80%;
-  padding: auto;
-  margin: auto;
+  margin: 2ch;
+  padding: 1ch;
   background-color: rgba(216, 216, 216, 0.831372549);
   border-radius: 3ch;
-}
-
-main img {
-  display: flex;
-  justify-content: center;
-  max-width: 50%;
-  margin: auto;
-  padding: auto;
 }
 
 main p {

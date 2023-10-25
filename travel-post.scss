@@ -90,19 +90,12 @@ article {
 main {
     display: flex;
     flex-direction: column;
-    max-width: 80%;
-    padding: auto;
-    margin: auto;
+    margin: $main-margin;
+    padding: 1ch;
     background-color: $main-bgcolor;
     border-radius: $main-border;
 }
-main img {
-    display: flex;
-    justify-content: center;
-    max-width: 50%;
-    margin: auto;
-    padding: auto;
-}
+
 main p {
     text-align: center;
     padding: $main-padding;
