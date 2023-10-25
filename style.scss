@@ -1,6 +1,7 @@
 /* color palette
 dark blue: #2D4356;
-lighter blue: #435B66;
+hover blue: #435B66;
+light blue: #628798;
 grey: #435B66;
 light grey: #EFEFEF;
 */
@@ -24,9 +25,15 @@ $main-border: 3ch;
 /* footer variables*/
 $footer-bgcolor: #2D4356;
 $footer-txtcolor: #EFEFEF;
+/* index main link variable*/
+$mainlink-bgcolor: #628798;
+$mainlink-txtcolor: #2D4356;
+$mainlink-visited: #EFEFEF;
+$mainlink-border: 3ch;
+$mainlink-padding: 1ch;
 
 body {
-    background-color: #f5f5f5;
+background-color: #f5f5f5;
 }
 
 /* Common elements for all pages*/
@@ -102,6 +109,19 @@ footer {
     }
     main p {
         text-align: center;
+    }
+    main a:link {
+        display: flex;
+        align-items: center;
+        background-color: $mainlink-bgcolor;
+        color: $mainlink-txtcolor;
+        border-radius: $mainlink-border;
+        max-width: 30%;
+        margin: auto;
+        padding: $mainlink-padding;
+    }
+    main a:visited {
+        color: $mainlink-visited;
     }
 }
 

@@ -1,6 +1,7 @@
 /* color palette
 dark blue: #2D4356;
-lighter blue: #435B66;
+hover blue: #435B66;
+light blue: #628798;
 grey: #435B66;
 light grey: #EFEFEF;
 */
@@ -10,6 +11,7 @@ light grey: #EFEFEF;
 /* aside variables*/
 /*main variables*/
 /* footer variables*/
+/* index main link variable*/
 body {
   background-color: #f5f5f5;
 }
@@ -88,4 +90,17 @@ footer {
 }
 .container main p {
   text-align: center;
+}
+.container main a:link {
+  display: flex;
+  align-items: center;
+  background-color: #628798;
+  color: #2D4356;
+  border-radius: 3ch;
+  max-width: 30%;
+  margin: auto;
+  padding: 1ch;
+}
+.container main a:visited {
+  color: #EFEFEF;
 }/*# sourceMappingURL=style.css.map */
