@@ -61,7 +61,7 @@ footer {
   padding: 1ch;
   margin: 1ch;
   background-color: rgba(216, 216, 216, 0.831372549);
-  border-radius: 2ch;
+  border-radius: 3ch;
 }
 .container aside h3 {
   display: flex;
@@ -77,7 +77,7 @@ footer {
   padding: 1ch;
   margin: 1ch;
   background-color: rgba(216, 216, 216, 0.831372549);
-  border-radius: 2ch;
+  border-radius: 3ch;
 }
 .container main img {
   display: flex;
