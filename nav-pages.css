@@ -67,7 +67,7 @@ footer {
   max-width: 30%;
 }
 .card-container .card .card-content {
-  background-color: #d9d9d9;
+  background-color: rgba(216, 216, 216, 0.831372549);
   padding: 1ch;
   border-radius: 2ch;
 }
