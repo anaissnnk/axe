@@ -1,16 +1,44 @@
+/* color palette
+dark blue: #2D4356;
+hover blue: #435B66;
+light blue: #628798;
+light grey: #EFEFEF;
+background grey: #f5f5f5;
+*/
+
 /* variables */
 /* nav variables */
-$nav-bgcolor: pink;
-$nav-bghover: beige;
-$nav-linkcolor: black;
+$nav-bgcolor: #2D4356;
+$nav-bghover: #435B66;
+$nav-linkcolor: #EFEFEF;
 $nav-padding: 2ch;
 /* footer variables*/
-$footer-bgcolor: yellow;
+$footer-bgcolor: #2D4356;
+$footer-txtcolor: #EFEFEF;
 /*card variables*/
-$card-bgcolor: brown;
+$card-bgcolor: #d9d9d9;
 $readmore-bgcolor: white;
+$card-border: 2ch;
+$cardimg-border: 3ch;
+/* index&navpages main link variable*/
+$mainlink-bgcolor: #628798;
+$mainlink-txtcolor: #2D4356;
+$mainlink-visited: #EFEFEF;
+$mainlink-hover: #2D4356;
+$mainlink-border: 3ch;
+$mainlink-padding: 1ch;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f5f5;
+}
 
 
+/* Common elements for all pages*/
 /* navigation bar*/
 ul {
     list-style-type: none;
@@ -22,7 +50,7 @@ ul {
     }
     li a {
     padding: $nav-padding;
-    color: $nav-linkcolor;
+    color: $nav-linkcolor
     }
     li a:hover {
     background-color: $nav-bghover;
@@ -33,13 +61,14 @@ ul {
 .banner {
     max-width: 100%;
     margin: auto;
-    padding: 0;
+    padding: auto;
 }
 
-/* footer*/
+/* footer */
 footer {
     text-align: center;
     background-color: $footer-bgcolor;
+    color: $footer-txtcolor;
 }
 
 /* cards */
@@ -57,18 +86,35 @@ footer {
 .card-content {
         background-color: $card-bgcolor;
         padding: 1ch;
+        border-radius: $card-border;
     }
+.card-content img {
+    max-width: 100%;
+    border-radius: $cardimg-border;
+}
 .card-content h3 {
     text-align: center;
+    margin: 1ch;
     }
 .card-content p {
     text-align: justify;
+    margin: 1ch;
     }
 .card-content a:link {
     display: flex;
     justify-content: center;
-    background-color: $readmore-bgcolor;
-    border-radius: 2ch;
+    background-color: $mainlink-bgcolor;
+    color: $mainlink-txtcolor;
+    padding: $mainlink-padding;
+    border-radius: $mainlink-border;
+    max-width: 30%;
+    margin: auto;
+    }
+    .card-content a:hover {
+        background-color: $mainlink-hover;
+    }
+    .card-content a:visited {
+        color: $mainlink-visited;
     }
 }
 }
