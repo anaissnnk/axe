@@ -12,6 +12,11 @@ light grey: #EFEFEF;
 /*main variables*/
 /* footer variables*/
 /* index&navpages main link variable*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #f5f5f5;
 }
@@ -68,9 +73,11 @@ footer {
 .container aside h3 {
   display: flex;
   justify-content: center;
+  padding: 1ch;
 }
 .container aside p {
   text-align: justify;
+  margin: 1ch;
 }
 .container main {
   display: flex;

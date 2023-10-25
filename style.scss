@@ -13,7 +13,8 @@ $nav-bghover: #435B66;
 $nav-linkcolor: #EFEFEF;
 $nav-padding: 2ch;
 /* Index page variables*/
-$my-padding: 1ch;
+$main-padding: 1ch;
+$main-margin: 1ch;
 /* aside variables*/
 $aside-bgcolor: #d8d8d8d4;
 $aside-bordercolor: #435B66 1px solid;
@@ -32,6 +33,11 @@ $mainlink-visited: #EFEFEF;
 $mainlink-hover: #2D4356;
 $mainlink-border: 3ch;
 $mainlink-padding: 1ch;
+
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
 background-color: #f5f5f5;
@@ -80,24 +86,26 @@ footer {
         display: flex;
         flex-direction: column;
         max-width: 20%;
-        padding: $my-padding;
-        margin: $my-padding;
+        padding: $main-padding;
+        margin: $main-margin;
         background-color: $aside-bgcolor;
         border-radius: $aside-border;
     }
     aside h3 {
         display: flex;
         justify-content: center;
+        padding: $main-padding;
     }
     aside p {
         text-align: justify;
+        margin: $main-margin;
     }
     main {
         display: flex;
         flex-direction: column;
         max-width: 80%;
-        padding: $my-padding;
-        margin: $my-padding;
+        padding: $main-padding;
+        margin: $main-margin;
         background-color: $main-bgcolor;
         border-radius: $main-border;
     }
@@ -127,6 +135,7 @@ footer {
     main a:hover {
         background-color: $mainlink-hover;
     }
+    
 }
 
 
