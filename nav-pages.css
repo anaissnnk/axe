@@ -98,4 +98,10 @@ footer {
 }
 .card-container .card .card-content a:visited {
   color: #EFEFEF;
+}
+
+h1 {
+  text-align: center;
+  padding: 1ch;
+  margin: 1ch;
 }/*# sourceMappingURL=nav-pages.css.map */
