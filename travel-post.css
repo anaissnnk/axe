@@ -6,11 +6,18 @@ light grey: #EFEFEF;
 */
 /* variables */
 /* nav variables */
+/* Index page variables*/
+/* aside variables*/
+/*main variables*/
 /* footer variables*/
-/* article variable*/
+/* index&navpages main link variable*/
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: #EFEFEF;
 }
 
 /* Common elements for all pages*/
@@ -46,14 +53,59 @@ footer {
   color: #EFEFEF;
 }
 
-/* article */
+/* article
 article {
+    background-color: $article-bgcolor;
+    text-align: justify;
+    padding: 2ch;
+    margin: 2ch;
+    article h3 {
+        padding: 1ch;
+        margin: 1ch;
+    }
+} */
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  padding: auto;
+  margin: auto;
   background-color: rgba(216, 216, 216, 0.831372549);
-  text-align: justify;
-  padding: 2ch;
-  margin: 2ch;
+  border-radius: 3ch;
 }
-article article h3 {
+
+main img {
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
+  margin: auto;
+  padding: auto;
+}
+
+main p {
+  text-align: center;
+  padding: 2ch;
+}
+
+main a:link {
+  display: flex;
+  align-items: center;
+  background-color: #628798;
+  color: #2D4356;
+  border-radius: 3ch;
+  max-width: 30%;
+  margin: auto;
   padding: 1ch;
-  margin: 1ch;
+}
+
+main a:visited {
+  color: #EFEFEF;
+}
+
+main a:hover {
+  background-color: #2D4356;
+}
+
+main h1 {
+  margin: 2ch;
 }/*# sourceMappingURL=travel-post.css.map */
