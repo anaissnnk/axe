@@ -100,7 +100,7 @@ footer {
 .container main a:link {
   display: flex;
   align-items: center;
-  background-color: #628798;
+  background-color: #2D4356;
   color: #EFEFEF;
   border-radius: 3ch;
   max-width: 30%;
@@ -111,7 +111,7 @@ footer {
   color: #EFEFEF;
 }
 .container main a:hover {
-  background-color: #2D4356;
+  background-color: #435B66;
   color: #EFEFEF;
 }
 .container main h1 {
