@@ -128,4 +128,10 @@ footer {
     margin: 2ch;
     padding: 2ch;
   }
+}
+article {
+  background-color: white;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
