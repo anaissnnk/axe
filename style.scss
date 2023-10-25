@@ -29,6 +29,7 @@ $footer-txtcolor: #EFEFEF;
 $mainlink-bgcolor: #628798;
 $mainlink-txtcolor: #2D4356;
 $mainlink-visited: #EFEFEF;
+$mainlink-hover: #2D4356;
 $mainlink-border: 3ch;
 $mainlink-padding: 1ch;
 
@@ -122,6 +123,9 @@ footer {
     }
     main a:visited {
         color: $mainlink-visited;
+    }
+    main a:hover {
+        background-color: $mainlink-hover;
     }
 }
 
