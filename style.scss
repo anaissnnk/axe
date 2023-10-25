@@ -16,9 +16,11 @@ $my-padding: 1ch;
 /* aside variables*/
 $aside-bgcolor: #d8d8d8d4;
 $aside-bordercolor: #435B66 1px solid;
+$aside-padding: 2ch;
 /*main variables*/
 $main-bgcolor: #d8d8d8d4;
 $main-bordercolor: #435B66 1px solid;
+$main-padding: 2ch;
 /* footer variables*/
 $footer-bgcolor: #2D4356;
 $footer-txtcolor: #EFEFEF;
@@ -73,6 +75,7 @@ footer {
         padding: $my-padding;
         margin: $my-padding;
         background-color: $aside-bgcolor;
+        border-radius: $aside-padding;
     }
     aside h3 {
         display: flex;
@@ -88,6 +91,7 @@ footer {
         padding: $my-padding;
         margin: $my-padding;
         background-color: $main-bgcolor;
+        border-radius: $main-padding;
     }
     main img {
         display: flex;
