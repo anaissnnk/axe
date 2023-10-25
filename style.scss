@@ -135,7 +135,9 @@ footer {
     main a:hover {
         background-color: $mainlink-hover;
     }
-    
+    main h1 {
+        margin: $main-margin;
+    }
 }
 
 

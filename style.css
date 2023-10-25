@@ -113,4 +113,7 @@ footer {
 }
 .container main a:hover {
   background-color: #2D4356;
+}
+.container main h1 {
+  margin: 1ch;
 }/*# sourceMappingURL=style.css.map */
