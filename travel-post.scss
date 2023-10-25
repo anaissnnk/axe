@@ -75,18 +75,6 @@ footer {
     color: $footer-txtcolor;
 }
 
-/* article
-article {
-    background-color: $article-bgcolor;
-    text-align: justify;
-    padding: 2ch;
-    margin: 2ch;
-    article h3 {
-        padding: 1ch;
-        margin: 1ch;
-    }
-} */
-
 main {
     display: flex;
     flex-direction: column;
@@ -97,7 +85,7 @@ main {
 }
 
 main p {
-    text-align: center;
+    text-align: justify;
     padding: $main-padding;
 }
 main a:link {
@@ -117,7 +105,17 @@ main a:hover {
     background-color: $mainlink-hover;
 }
 main h1 {
-    margin: $main-margin;
+    margin: 1ch;
+}
+main img {
+    max-width: 30%;
+    margin: auto;
+    padding: 0;
+}
+main q, cite {
+    max-width: 50%;
+    margin: auto;
+    padding: 1ch;
 }
 
 
