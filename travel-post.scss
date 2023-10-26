@@ -143,13 +143,15 @@ q {
   font-style: italic;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .banner {
         max-width: 100%;
         height: auto;
         padding-bottom: 1ch;
     }
 }
+
+
 
 /*nav media query*/
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
