@@ -143,17 +143,24 @@ footer {
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     .container {
       flex-direction: column;
       align-items: center;
       aside {
         max-width: 80%;
-        margin: 2ch;
+        margin: auto;
         padding: 2ch;
-      }
     }
 }
+}
+
+
+/*Mobile (Smartphone) max-width: 480px.
+Low Resolution Tablets and ipads max-width: 767px.
+Tablets Ipads portrait mode max-width:1024px.
+Desktops max-width:1280px.
+Huge size (Larger screen) max-width: 1281px and greater.*/
 
 article {
     background-color: white;
