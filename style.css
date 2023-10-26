@@ -43,33 +43,33 @@ ul {
   }
   bar*/
 /* hamburger nav*/
-/* Add a black background color to the top navigation */
+nav {
+  font-family: "Courier New";
+}
+
 .topnav {
-  background-color: #333;
+  background-color: #2D4356;
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #EFEFEF;
   text-align: center;
-  padding: 14px 16px;
+  padding: 2ch;
   text-decoration: none;
-  font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #435B66;
+  color: #EFEFEF;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+  background-color: #EFEFEF;
+  color: #2D4356;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -185,11 +185,6 @@ footer {
     padding: 2ch;
   }
 }
-/*Mobile (Smartphone) max-width: 480px.
-Low Resolution Tablets and ipads max-width: 767px.
-Tablets Ipads portrait mode max-width:1024px.
-Desktops max-width:1280px.
-Huge size (Larger screen) max-width: 1281px and greater.*/
 article {
   background-color: white;
   display: flex;
