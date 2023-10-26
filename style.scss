@@ -106,6 +106,8 @@ footer {
     main {
         display: flex;
         flex-direction: column;
+        align-content: center;
+        align-item: center;
         max-width: 80%;
         padding: $main-padding;
         margin: $main-margin;

@@ -86,6 +86,8 @@ footer {
 .container main {
   display: flex;
   flex-direction: column;
+  align-content: center;
+  align-item: center;
   max-width: 80%;
   padding: 2ch;
   margin: 2ch;
