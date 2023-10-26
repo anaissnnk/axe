@@ -124,6 +124,10 @@ main q, cite {
   padding: 1ch;
 }
 
+q {
+  font-style: italic;
+}
+
 @media (max-width: 600px) {
   .banner {
     max-width: 100%;
