@@ -82,10 +82,12 @@ footer {
 .card-container .card .card-content p {
   text-align: justify;
   margin: 1ch;
+  padding-bottom: 1ch;
 }
 .card-container .card .card-content a:link {
   display: flex;
   justify-content: center;
+  text-align: center;
   background-color: #628798;
   color: #2D4356;
   padding: 1ch;

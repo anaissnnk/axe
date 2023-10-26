@@ -99,10 +99,12 @@ footer {
 .card-content p {
     text-align: justify;
     margin: 1ch;
+    padding-bottom: 1ch;
     }
 .card-content a:link {
     display: flex;
     justify-content: center;
+    text-align: center;
     background-color: $mainlink-bgcolor;
     color: $mainlink-txtcolor;
     padding: $mainlink-padding;
