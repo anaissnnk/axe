@@ -122,7 +122,7 @@ footer {
   margin: 1ch;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .banner {
     max-width: 100%;
     height: auto;
