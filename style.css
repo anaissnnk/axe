@@ -95,6 +95,9 @@ footer {
 .container aside p {
   text-align: justify;
 }
+.container aside img {
+  border-radius: 2ch;
+}
 .container main {
   display: flex;
   flex-direction: column;
