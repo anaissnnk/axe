@@ -87,6 +87,8 @@ main {
 main p {
     text-align: justify;
     padding: $main-padding;
+    max-width: 90%;
+    margin: auto;
 }
 main a:link {
     display: flex;

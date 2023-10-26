@@ -65,6 +65,8 @@ main {
 main p {
   text-align: justify;
   padding: 2ch;
+  max-width: 90%;
+  margin: auto;
 }
 
 main a:link {
