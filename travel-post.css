@@ -44,8 +44,9 @@ ul li a:hover {
 /* banner */
 .banner {
   max-width: 100%;
-  margin: auto;
-  padding: auto;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /* footer */
@@ -106,4 +107,12 @@ main q, cite {
   max-width: 50%;
   margin: auto;
   padding: 1ch;
+}
+
+@media (max-width: 600px) {
+  .banner {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 1ch;
+  }
 }/*# sourceMappingURL=travel-post.css.map */

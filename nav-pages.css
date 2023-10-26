@@ -43,8 +43,9 @@ ul li a:hover {
 /* banner */
 .banner {
   max-width: 100%;
-  margin: auto;
-  padding: auto;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /* footer */
@@ -127,5 +128,10 @@ h1 {
     text-align: center;
     max-width: 80%;
     margin: auto;
+  }
+  .banner {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 1ch;
   }
 }/*# sourceMappingURL=nav-pages.css.map */
