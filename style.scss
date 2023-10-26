@@ -50,6 +50,7 @@ ul {
     margin: 0;
     padding: $nav-padding;
     background-color: $nav-bgcolor;
+    font-family: 'Courier New';
     li {
     display: inline;
     }
@@ -71,6 +72,7 @@ ul {
 
 /* footer */
 footer {
+    font-family: 'Courier New';
     text-align: center;
     background-color: $footer-bgcolor;
     color: $footer-txtcolor;

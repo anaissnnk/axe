@@ -28,6 +28,7 @@ ul {
   margin: 0;
   padding: 2ch;
   background-color: #2D4356;
+  font-family: "Courier New";
 }
 ul li {
   display: inline;
@@ -49,6 +50,7 @@ ul li a:hover {
 
 /* footer */
 footer {
+  font-family: "Courier New";
   text-align: center;
   background-color: #2D4356;
   color: #EFEFEF;

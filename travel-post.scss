@@ -45,6 +45,7 @@ body {
 /* Common elements for all pages*/
 /* navigation bar*/
 ul {
+    font-family: 'Courier New';
     list-style-type: none;
     margin: 0;
     padding: $nav-padding;
@@ -70,6 +71,7 @@ ul {
 
 /* footer */
 footer {
+    font-family: 'Courier New';
     text-align: center;
     background-color: $footer-bgcolor;
     color: $footer-txtcolor;

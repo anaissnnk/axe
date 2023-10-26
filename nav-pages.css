@@ -22,6 +22,7 @@ body {
 /* Common elements for all pages*/
 /* navigation bar*/
 ul {
+  font-family: "Courier New";
   list-style-type: none;
   margin: 0;
   padding: 2ch;
@@ -47,6 +48,7 @@ ul li a:hover {
 
 /* footer */
 footer {
+  font-family: "Courier New";
   text-align: center;
   background-color: #2D4356;
   color: #EFEFEF;
