@@ -45,6 +45,8 @@ ul li a:hover {
 /* banner */
 .banner {
   max-width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
   margin: auto;
   padding: auto;
 }
@@ -61,9 +63,8 @@ footer {
 .container {
   display: flex;
   flex-direction: row;
-  max-width: 95%;
+  max-width: 100%;
   margin: auto;
-  padding: 2ch;
 }
 .container aside {
   display: flex;
