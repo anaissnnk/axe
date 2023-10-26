@@ -88,15 +88,15 @@ footer {
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: #628798;
-  color: #2D4356;
+  background-color: #2D4356;
+  color: #EFEFEF;
   padding: 1ch;
   border-radius: 3ch;
   max-width: 30%;
   margin: auto;
 }
 .card-container .card .card-content a:hover {
-  background-color: #2D4356;
+  background-color: #628798;
 }
 .card-container .card .card-content a:visited {
   color: #EFEFEF;
