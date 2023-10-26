@@ -118,7 +118,7 @@ footer {
   color: #EFEFEF;
 }
 .container main h1 {
-  margin: 2ch;
+  margin: 1ch;
 }
 
 @media (max-width: 800px) {
