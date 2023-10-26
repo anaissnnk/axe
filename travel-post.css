@@ -72,8 +72,8 @@ main p {
 main a:link {
   display: flex;
   align-items: center;
-  background-color: #628798;
-  color: #2D4356;
+  background-color: #435B66;
+  color: #EFEFEF;
   border-radius: 3ch;
   max-width: 30%;
   margin: auto;
