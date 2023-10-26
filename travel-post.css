@@ -72,7 +72,7 @@ main p {
 main a:link {
   display: flex;
   align-items: center;
-  background-color: #435B66;
+  background-color: #2D4356;
   color: #EFEFEF;
   border-radius: 3ch;
   max-width: 30%;
@@ -85,7 +85,7 @@ main a:visited {
 }
 
 main a:hover {
-  background-color: #2D4356;
+  background-color: #435B66;
 }
 
 main h1 {
