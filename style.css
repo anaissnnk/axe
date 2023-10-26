@@ -45,8 +45,8 @@ ul li a:hover {
 /* banner */
 .banner {
   max-width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
   margin: auto;
   padding: auto;
 }
