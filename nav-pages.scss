@@ -40,7 +40,7 @@ body {
 
 
 /* Common elements for all pages*/
-/* navigation bar*/
+/* navigation
 ul {
     font-family: 'Courier New';
     list-style-type: none;
@@ -58,6 +58,42 @@ ul {
     background-color: $nav-bghover;
     }
   }
+  bar */
+
+    /* hamburger nav*/
+nav {
+    font-family: 'Courier New';
+}
+
+.topnav {
+    background-color: $nav-bgcolor;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: $nav-linkcolor;
+    text-align: center;
+    padding: $nav-padding;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-color: $nav-bghover;
+    color: $nav-linkcolor;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: $nav-linkcolor;
+    color: $nav-bgcolor;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+}
 
 /* banner */
 .banner {

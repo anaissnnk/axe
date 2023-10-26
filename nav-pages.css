@@ -21,23 +21,58 @@ body {
 }
 
 /* Common elements for all pages*/
-/* navigation bar*/
+/* navigation
 ul {
+    font-family: 'Courier New';
+    list-style-type: none;
+    margin: 0;
+    padding: $nav-padding;
+    background-color: $nav-bgcolor;
+    li {
+    display: inline;
+    }
+    li a {
+    padding: $nav-padding;
+    color: $nav-linkcolor
+    }
+    li a:hover {
+    background-color: $nav-bghover;
+    }
+  }
+  bar */
+/* hamburger nav*/
+nav {
   font-family: "Courier New";
-  list-style-type: none;
-  margin: 0;
-  padding: 2ch;
+}
+
+.topnav {
   background-color: #2D4356;
+  overflow: hidden;
 }
-ul li {
-  display: inline;
-}
-ul li a {
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #EFEFEF;
+  text-align: center;
   padding: 2ch;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #435B66;
   color: #EFEFEF;
 }
-ul li a:hover {
-  background-color: #435B66;
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #EFEFEF;
+  color: #2D4356;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
 }
 
 /* banner */
