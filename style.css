@@ -141,6 +141,12 @@ footer {
   margin: 1ch;
 }
 
+.under-construction {
+  text-align: center;
+  padding: 1ch;
+  background-color: rgba(216, 216, 216, 0.831372549);
+}
+
 @media (max-width: 1280px) {
   .banner {
     max-width: 100%;
