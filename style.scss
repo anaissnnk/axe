@@ -69,16 +69,16 @@ nav {
     color: $nav-linkcolor;
   }
   
-  /* Add an active class to highlight the current page */
   .topnav a.active {
     background-color: $nav-linkcolor;
     color: $nav-bgcolor;
   }
   
-  /* Hide the link that should open and close the topnav on small screens */
   .topnav .icon {
     display: none;
 }
+
+
 
 /* banner */
 .banner {
